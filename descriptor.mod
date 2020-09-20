@@ -1,8 +1,9 @@
-version="1"
+version="1.0"
 tags={
-	"Character Interactions"
-	"Religion"
-	"Gameplay"
+    "Balance"
+    "Character Interactions"
+    "Gameplay"
+    "Religion"
 }
-name="Take Vows"
+name="Force Your Child to Take Vows"
 supported_version="1.0.3"
