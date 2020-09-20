@@ -22,7 +22,7 @@ your character has had 10 sons and you don't know what to do with the insane spl
 In the current version of the game, the only way to make your child a monk is to
 forcefully imprison them (potentially using a hook in the process) and immediately
 release them forcing them to take vows. Not only does this not make much sense (as head
-of the family), but it likely makes you incurr a massive tyranny penalty from all your
+of the family), but it likely makes you incur a massive tyranny penalty from all your
 vassals as you forcefully imprisoned someone for no reason (unless your child had
 already commited a crime which I do not think is possible.)
 
@@ -33,7 +33,7 @@ The following conditions have to be met:
 
 - The character must be your child.
 - The character must be aged 15 or younger.
-- The character cannot be married (but they can be bethrothed).
+- The character cannot be married (but they can be betrothed).
 - The character cannot be your heir.
 - The character cannot already be a monk.
 
