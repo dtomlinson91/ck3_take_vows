@@ -3,6 +3,7 @@ take_vows_interaction = {
 	common_interaction = yes
 	use_diplomatic_range = no
 	ignores_pending_interaction_block = yes
+	desc = force_vows_interaction_desc
 	is_shown = {
 		scope:recipient = {
 			AND = {
