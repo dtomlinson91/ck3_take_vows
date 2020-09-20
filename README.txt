@@ -10,7 +10,7 @@ In the current version of the game, the only way to make a child a monk is to fo
 
 This mod adds an interaction when you right click on the child that allows you to make them take the vows.
 
-**The AI will never do this** - this is only an option for the player. It is also not Ironman compatible (as it alters the checksum).
+[b]The AI will never do this[/b] - this is only an option for the player. It is also not Ironman compatible (as it alters the checksum).
 
 The following conditions have to be met:
 [list]
@@ -33,6 +33,18 @@ incredibly simple but if anyone has any suggestions feel free to post them!
 The mod is open source and can be found [url=https://github.com/dtomlinson91/ck3_take_vows]here[/url].
 
 [h2]Changelog[/h2]
+
+(1.1.0) - 20/09/2020
+
+Added:
+[list]
+[*]AI will never use this.
+[/list]
+
+Fixed:
+[list]
+[*]Child will now be guaranteed to accept.
+[/list]
 
 (1.0.0) - 20/09/2020
 
