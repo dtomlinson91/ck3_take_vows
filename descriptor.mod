@@ -7,3 +7,4 @@ tags={
 }
 name="Force Your Child to Take Vows"
 supported_version="1.0.3"
+picture="thumbnail.png"
