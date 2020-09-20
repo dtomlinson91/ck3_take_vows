@@ -1,3 +1,3 @@
 cd /mnt/c/Users/Daniel/Documents/Paradox Interactive/Crusader Kings III/mod/take_vows
 rsync -avzh /home/dtomlinson/projects/games/crusder_kings_3/ck3_take_vows/ .
-rm -rf .git .commands LICENSE README.md CHANGELOG.md
+rm -rf .git .commands LICENSE README.txt CHANGELOG.md
