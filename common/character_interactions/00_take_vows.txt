@@ -37,4 +37,6 @@ take_vows_interaction = {
 			add_piety = 50
 		}
 	}
+	auto_accept = yes
+	ai_will_do = 0
 }
