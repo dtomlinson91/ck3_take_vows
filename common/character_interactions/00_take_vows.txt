@@ -8,7 +8,10 @@ take_vows_interaction = {
 		scope:recipient = {
 			AND = {
 				age < 16
-				is_child_of = scope:actor
+				OR = {
+					is_child_of = scope:actor
+					is_courtier_of = scope:actor
+				}
 				is_married = no
 				NOT = {
 					is_primary_heir_of = scope:actor
