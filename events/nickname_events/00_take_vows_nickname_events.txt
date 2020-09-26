@@ -1,0 +1,36 @@
+﻿namespace = TakeVows
+TakeVows.1000 = {
+	type = character_event
+	title = TakeVows.1000.t
+	desc = TakeVows.1000.desc
+	theme = TakeVows_theme_faith
+	left_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+	option = {
+		name = TakeVows.1000.a
+		add_piety = 100
+		stress_impact = {
+			zealous = minor_stress_impact_loss
+			arrogant = minor_stress_impact_loss
+			cynical = miniscule_stress_impact_gain
+		}
+	}
+	option = {
+		name = TakeVows.1000.b
+		add_piety = 150
+		stress_impact = {
+			humble = minor_stress_impact_loss
+			arrogant = minor_stress_impact_gain
+			cynical = miniscule_stress_impact_gain
+		}
+	}
+	option = {
+		name = TakeVows.1000.c
+		add_piety = 50
+		stress_impact = {
+			arrogant = minor_stress_impact_gain
+		}
+	}
+}

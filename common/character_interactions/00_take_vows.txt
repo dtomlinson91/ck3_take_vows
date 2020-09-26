@@ -1,4 +1,4 @@
-take_vows_interaction = {
+﻿take_vows_interaction = {
 	category = interaction_category_friendly
 	common_interaction = yes
 	use_diplomatic_range = no
@@ -38,6 +38,9 @@ take_vows_interaction = {
 		}
 		scope:actor = {
 			add_piety = 50
+			hidden_effect = {
+				number_of_sons_given_away_effect = yes
+			}
 		}
 	}
 	auto_accept = yes

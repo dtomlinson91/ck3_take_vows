@@ -1,0 +1,10 @@
+quarterly_playable_pulse = {
+	trigger = {
+		has_character_flag = number_of_sons_given_away_flag
+		is_ai = no
+	}
+
+	events = {
+		TakeVows.1000
+	}
+}

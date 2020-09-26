@@ -1,0 +1,26 @@
+﻿number_of_sons_given_away_effect = {
+	# Create variable if it does not exist.
+	if = {
+		limit = {
+			NOT = {
+				has_variable = number_of_sons_given_away
+			}
+		}
+		set_variable = {
+			name = number_of_sons_given_away
+			value = 0
+		}
+	}
+	if = {
+		limit = {
+			number_of_sons_given_away = 1
+		}
+		add_character_flag = {
+			flag = number_of_sons_given_away_flag
+		}
+	}
+	change_variable = {
+		name = number_of_sons_given_away
+		add = 1
+	}
+}
