@@ -8,7 +8,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Unique title if 3 children given away for Christian faiths.
+- Unique event that grants a nickname if 3 children given away for Christian faiths.
+
+### Changed
+
+- Can now force heir to take vows with additional opinion + stress loss.
 
 ## [1.1.0] - 20/09/2020
 
