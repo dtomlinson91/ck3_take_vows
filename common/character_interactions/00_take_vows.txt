@@ -49,6 +49,16 @@
 			hidden_effect = {
 				number_of_children_given_away_effect = yes
 			}
+			if = {
+				limit = {
+					scope:recipient = {
+						is_heir_of = scope:actor
+					}
+				}
+				add_stress = {
+					add = major_stress_gain
+				}
+			}
 		}
 	}
 	auto_accept = yes
