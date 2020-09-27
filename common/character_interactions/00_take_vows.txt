@@ -1,4 +1,4 @@
-take_vows_interaction = {
+﻿take_vows_interaction = {
 	category = interaction_category_friendly
 	common_interaction = yes
 	use_diplomatic_range = no
@@ -14,9 +14,6 @@ take_vows_interaction = {
 				}
 				is_married = no
 				NOT = {
-					is_primary_heir_of = scope:actor
-				}
-				NOT = {
 					has_trait = devoted
 				}
 			}
@@ -24,11 +21,22 @@ take_vows_interaction = {
 	}
 	on_accept = {
 		scope:recipient = {
-			add_trait = devoted
-			add_opinion = {
-				modifier = demanded_taking_vows
-				target = scope:actor
+			if = {
+				limit = {
+					is_heir_of = scope:actor
+				}
+				add_opinion = {
+					modifier = forced_heir_to_take_vows
+					target = scope:actor
+				}
 			}
+			else = {
+				add_opinion = {
+					modifier = demanded_taking_vows
+					target = scope:actor
+				}
+			}
+			add_trait = devoted
 			if = {
 				limit = {
 					is_ruler = yes
@@ -38,6 +46,19 @@ take_vows_interaction = {
 		}
 		scope:actor = {
 			add_piety = 50
+			hidden_effect = {
+				number_of_children_given_away_effect = yes
+			}
+			if = {
+				limit = {
+					scope:recipient = {
+						is_heir_of = scope:actor
+					}
+				}
+				add_stress = {
+					add = major_stress_gain
+				}
+			}
 		}
 	}
 	auto_accept = yes
