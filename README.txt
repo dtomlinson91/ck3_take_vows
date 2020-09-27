@@ -34,6 +34,13 @@ The mod is open source and can be found [url=https://github.com/dtomlinson91/ck3
 
 [h2]Changelog[/h2]
 
+(1.2.0) - 27/09/2020
+
+Added:
+[list]
+[*]Unique title if 3 children given away for Christian faiths.
+[/list]
+
 (1.1.0) - 20/09/2020
 
 Added:
