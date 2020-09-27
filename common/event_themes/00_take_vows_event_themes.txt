@@ -1,4 +1,4 @@
-TakeVows_theme_faith = {
+﻿TakeVows_theme_faith = {
 	icon = {
 		reference = "gfx/interface/event_window/type_faith.dds"
 	}

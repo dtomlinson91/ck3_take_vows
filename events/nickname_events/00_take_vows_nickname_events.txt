@@ -10,7 +10,16 @@ TakeVows.1000 = {
 	}
 	option = {
 		name = TakeVows.1000.a
-		add_piety = 100
+		if = {
+			limit = {
+				has_character_flag = number_of_children_given_away_flag
+			}
+			remove_character_flag = number_of_children_given_away_flag
+		}
+		set_nickname_effect = {
+			NICKNAME = take_vows_nick_the_reverential
+		}
+		add_piety = 60
 		stress_impact = {
 			zealous = minor_stress_impact_loss
 			arrogant = minor_stress_impact_loss
@@ -19,7 +28,13 @@ TakeVows.1000 = {
 	}
 	option = {
 		name = TakeVows.1000.b
-		add_piety = 150
+		if = {
+			limit = {
+				has_character_flag = number_of_children_given_away_flag
+			}
+			remove_character_flag = number_of_children_given_away_flag
+		}
+		add_piety = 80
 		stress_impact = {
 			humble = minor_stress_impact_loss
 			arrogant = minor_stress_impact_gain
@@ -28,9 +43,15 @@ TakeVows.1000 = {
 	}
 	option = {
 		name = TakeVows.1000.c
-		add_piety = 50
+		if = {
+			limit = {
+				has_character_flag = number_of_children_given_away_flag
+			}
+			remove_character_flag = number_of_children_given_away_flag
+		}
 		stress_impact = {
 			arrogant = minor_stress_impact_gain
+			cynical = minor_stress_impact_gain
 		}
 	}
 }

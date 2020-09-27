@@ -39,7 +39,7 @@
 		scope:actor = {
 			add_piety = 50
 			hidden_effect = {
-				number_of_sons_given_away_effect = yes
+				number_of_children_given_away_effect = yes
 			}
 		}
 	}
