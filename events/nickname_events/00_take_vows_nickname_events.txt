@@ -8,14 +8,18 @@ TakeVows.1000 = {
 		character = root
 		animation = personality_zealous
 	}
+	immediate = {
+		hidden_effect = {
+			if = {
+				limit = {
+					has_character_flag = number_of_children_given_away_flag
+				}
+				remove_character_flag = number_of_children_given_away_flag
+			}
+		}
+	}
 	option = {
 		name = TakeVows.1000.a
-		if = {
-			limit = {
-				has_character_flag = number_of_children_given_away_flag
-			}
-			remove_character_flag = number_of_children_given_away_flag
-		}
 		set_nickname_effect = {
 			NICKNAME = take_vows_nick_the_reverential
 		}
@@ -28,12 +32,6 @@ TakeVows.1000 = {
 	}
 	option = {
 		name = TakeVows.1000.b
-		if = {
-			limit = {
-				has_character_flag = number_of_children_given_away_flag
-			}
-			remove_character_flag = number_of_children_given_away_flag
-		}
 		add_piety = 80
 		stress_impact = {
 			humble = minor_stress_impact_loss
@@ -43,12 +41,6 @@ TakeVows.1000 = {
 	}
 	option = {
 		name = TakeVows.1000.c
-		if = {
-			limit = {
-				has_character_flag = number_of_children_given_away_flag
-			}
-			remove_character_flag = number_of_children_given_away_flag
-		}
 		stress_impact = {
 			arrogant = minor_stress_impact_gain
 			cynical = minor_stress_impact_gain
