@@ -14,9 +14,6 @@
 				}
 				is_married = no
 				NOT = {
-					is_primary_heir_of = scope:actor
-				}
-				NOT = {
 					has_trait = devoted
 				}
 			}
@@ -24,11 +21,22 @@
 	}
 	on_accept = {
 		scope:recipient = {
-			add_trait = devoted
-			add_opinion = {
-				modifier = demanded_taking_vows
-				target = scope:actor
+			if = {
+				limit = {
+					is_heir_of = scope:actor
+				}
+				add_opinion = {
+					modifier = forced_heir_to_take_vows
+					target = scope:actor
+				}
 			}
+			else = {
+				add_opinion = {
+					modifier = demanded_taking_vows
+					target = scope:actor
+				}
+			}
+			add_trait = devoted
 			if = {
 				limit = {
 					is_ruler = yes
