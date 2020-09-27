@@ -1,0 +1,5 @@
+﻿forced_heir_to_take_vows = {
+	opinion = -50
+	years = 10
+	decaying = yes
+}

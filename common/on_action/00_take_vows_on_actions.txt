@@ -1,0 +1,10 @@
+﻿quarterly_playable_pulse = {
+	trigger = {
+		has_character_flag = number_of_children_given_away_flag
+		is_ai = no
+		religion = religion:christianity_religion
+	}
+	events = {
+		TakeVows.1000
+	}
+}
