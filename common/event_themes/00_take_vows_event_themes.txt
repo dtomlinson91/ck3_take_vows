@@ -1,0 +1,11 @@
+﻿TakeVows_theme_faith = {
+	icon = {
+		reference = "gfx/interface/event_window/type_faith.dds"
+	}
+	sound = {
+		reference = "event:/SFX/Events/Themes/sfx_event_theme_type_activity"
+	}
+	background = {
+		event_background = TakeVows_background_faith
+	}
+}
